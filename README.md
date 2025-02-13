@@ -67,3 +67,5 @@ The AI will respond with animated typing bubbles, simulating a real-time chat ex
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
+
+![alt text](image.png)
