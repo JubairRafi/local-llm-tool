@@ -23,29 +23,36 @@ A lightweight, local LLM (Large Language Model) tool that allows you to interact
 
 ## Create a virtual environment:
 ## bash
+```bash
 python -m venv llm-tool-env
 Activate the virtual environment:
-
+```
 ## On Windows:
+```bash
 .\llm-tool-env\Scripts\Activate.ps1
-
+```
 ## On macOS/Linux:
+```bash
 source llm-tool-env/bin/activate
-
+```
 ## Install the dependencies:
+```bash
 pip install -r requirements.txt
-
+```
 Download the DeepSeek R1 1.5B model using Ollama:
+```bash
 ollama pull deepseek-r1:1.5b
-
+```
 ## Usage
 
 Start the Ollama server (if not already running):
+```bash
 ollama serve
-
+```
 ## Run the hotkey listener:
+```bash
 python hotkey_listener.py
-
+```
 Press Ctrl+Shift+L to launch the Local LLM Tool.
 
 Type your message in the input box and press "Send" or hit Enter.
